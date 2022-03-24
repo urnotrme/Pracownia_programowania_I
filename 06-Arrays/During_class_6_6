@@ -1,0 +1,6 @@
+a=[15, 8, 31, 47, 2, 19]
+b=0
+for i in range(len(a)):
+    b+=a[i]
+c=b/len(a)
+print(c)

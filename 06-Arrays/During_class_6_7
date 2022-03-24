@@ -1,0 +1,10 @@
+a=[15, 8, 31, 47, 2, 19]
+parz=0
+nieparz=0
+for i in a:
+    if i%2==0:
+        parz+=1
+    else:    
+        nieparz+=1
+print(parz)
+print(nieparz)

@@ -1,0 +1,7 @@
+a=["Styczeń", "Luty", "Marzec", "Kwiecień",
+   "Maj", "Czerwiec", "Lipiec", "Sierpień",
+   "Wrzesień", "Październik", "Listopad", "Grudzień"]
+def month(n):
+    print(a[n-1])
+n=int(input())
+month(n)
